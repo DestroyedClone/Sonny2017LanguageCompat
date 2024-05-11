@@ -18,8 +18,8 @@ namespace Sonny2017LanguageCompat.Tokenizations
             On.StoryPopup.Scan += StoryPopup_Scan;
             //On.StoryScript.Add_string += StoryScript_Add_string;
 
-            AutoGenerateTokens(); // then go jsonlint
-            AutoGenerateNewScript();
+            //AutoGenerateTokens(); // then go jsonlint
+            //AutoGenerateNewScript();
         }
 
         private static string StoryPopup_Scan(On.StoryPopup.orig_Scan orig, StoryPopup self, string decodedLine)

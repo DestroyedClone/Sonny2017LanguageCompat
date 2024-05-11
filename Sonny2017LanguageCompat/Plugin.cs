@@ -44,7 +44,7 @@ namespace Sonny2017LanguageCompat
             //TEvolve.Init();
             //TMenu.Init();
             //TMisc.Init();
-            //TScript.Init();
+            TScript.Init();
             //TSplash.Init();
             //TUnit.Init();
             //TZones.Init();
