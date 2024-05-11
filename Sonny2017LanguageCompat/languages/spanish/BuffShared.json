@@ -1,0 +1,18 @@
+{
+  "BUFFSHARED_REFRESHED": "Actualizado",
+  "BUFFSHARED_REFRESHED_FORMAT": "{0} Actualizado",
+  "BUFFSHARED_SILENCED": "Silenciado",
+  "BUFFSHARED_SILENCED_FORMAT": "{0} Silenciado",
+  "BUFFSHARED_POWERDOWN": "Apagar",
+  "BUFFSHARED_POWERDOWNFORMAT": "{0} Poder",
+  "BUFFSHARED_POWERUP": "Encender",
+  "BUFFSHARED_POWERUPFORMAT": "Obtuviste {0} poder",
+  "BUFFSHARED_SPEEDDOWN": "Acelerar",
+  "BUFFSHARED_SPEEDDOWNFORMAT": "{0} Velocidad",
+  "BUFFSHARED_SPEEDUP": "Acelerar",
+  "BUFFSHARED_SPEEDUPFORMAT": "Obtuviste {0} velocidad",
+  "BUFFSHARED_DEFENSEDOWN": "Defensa abajo",
+  "BUFFSHARED_DEFENSEDOWNFORMAT": "{0} Defensa",
+  "BUFFSHARED_DEFENSEUP": "Defensa arriba",
+  "BUFFSHARED_DEFENSEUPFORMAT": "Obtuvo {0} defensa"
+}

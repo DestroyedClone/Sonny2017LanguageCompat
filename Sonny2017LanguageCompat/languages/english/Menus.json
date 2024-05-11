@@ -1,0 +1,12 @@
+﻿{
+  "MENU_LEGENDRUNHEADER": "LEGEND RUN COMPLETED",
+  "MENU_LEGENDRUNBODY": "Congratulations! You have beaten the game without using training fights.",
+  "MENU_SAVE_SELECTSLOT": "SELECT A SLOT",
+  "MENU_SAVE_NEWGAME": "NEW GAME",
+  "MENU_SAVE_STAGEFORMAT": "STAGE {0}",
+  "MENU_SAVE_ZONEFORMAT": "ZONE {0}",
+  "MENU_SAVE_ZONEPROLOGUE": "PROLOGUE",
+  "MENU_SAVE_DELETEPROFILE": "DELETE PROFILE",
+  "MENU_SAVE_CONFIRMDELETION": "Are you sure? Doing this will permanently erase this character."
+
+}

@@ -1,0 +1,20 @@
+{
+  "CREDIT_ROLE_SONNY": "Sonny",
+  "CREDIT_ARMORGAMES": "por ArmorGames Studio",
+  "CREDIT_ROLE_EXECUTIVEPRODUCER": "Productor ejecutivo",
+  "CREDIT_ROLE_PRODUCERANDLEADDEVELOPER": "Productor y desarrollador jefe",
+  "CREDIT_ROLE_ENGINEERING": "Ingeniería",
+  "CREDIT_ROLE_LEADARTIST": "Artista principal",
+  "CREDIT_ROLE_ENVIRONMENTALDESIGN": "Diseño medioambiental",
+  "CREDIT_ROLE_ENVIRONMENTALTEXTURE": "Textura ambiental",
+  "CREDIT_ROLE_UIARTANDDESIGN": "Arte y diseño de interfaz de usuario",
+  "CREDIT_ROLE_SOUNDANDMUSIC": "Sonido y música",
+  "CREDIT_ROLE_STORY": "Historia",
+  "CREDIT_ROLE_VOICEACTING": "Actuación de voz",
+  "CREDIT_ROLE_ORIGINALSONG": "Canción original",
+  "CREDIT_ROLE_PROJECTMANAGER": "Director de proyecto",
+  "CREDIT_ROLE_PRODUCTIONSUPPORT": "Apoyo a la producción",
+  "CREDIT_ROLE_DDFTESTTEAM": "Equipo de pruebas DDF",
+  "CREDIT_ROLE_QAANDTESTENGINEERING": "Ingeniería de control de calidad y pruebas",
+  "CREDIT_ROLE_GAMEPLAYTESTING": "Pruebas de jugabilidad"
+}

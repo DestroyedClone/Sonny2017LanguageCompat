@@ -1,0 +1,303 @@
+<?xml version="1.0"?>
+<xml type="documentary">
+  <Characters>
+    <Character>
+      <UID>1</UID>
+      <name>Sonny</name>
+      <icon>Sonny HD</icon>
+      <align>Left</align>
+      <IDS/>
+    </Character>
+    <Character>
+      <UID>2</UID>
+      <name>Veradux</name>
+      <icon>Veradux HD</icon>
+      <align>Left</align>
+      <IDS>S2</IDS>
+    </Character>
+    <Character>
+      <UID>3</UID>
+      <name>Louis</name>
+      <icon>Louis HD</icon>
+      <align>Left</align>
+      <IDS/>
+    </Character>
+    <Character>
+      <UID>4</UID>
+      <name>ZPCI Leader</name>
+      <icon>UnitZPCI2 HD</icon>
+      <align>Right</align>
+    <IDS/></Character>
+    <Character>
+      <UID>5</UID>
+      <name>ZPCI Scout</name>
+      <icon>UnitPolice</icon>
+      <align>Right</align>
+    </Character>
+    <Character>
+      <UID>6</UID>
+      <name>Zombie</name>
+      <icon>UnitGenericZombie</icon>
+      <align>Right</align>
+    </Character>
+    <Character>
+      <UID>7</UID>
+      <name>Scavenger</name>
+      <icon>Bleed Zombie HD</icon>
+      <align>Right</align>
+      <IDS/>
+    </Character>
+    <Character>
+      <UID>8</UID>
+      <name>Dr Herregods</name>
+      <icon>Herregods HD</icon>
+      <align>Left</align>
+      <IDS>E1</IDS>
+    </Character>
+    <Character>
+      <UID>9</UID>
+      <name>ZPCI Rogue</name>
+      <icon>UnitBountyHunt</icon>
+      <align>Left</align>
+      <IDS>E2</IDS>
+    </Character>
+    <Character>
+      <UID>10</UID>
+      <name>Frost Walker</name>
+      <icon>UnitGenericZombie</icon>
+      <align>Left</align>
+      <IDS>E3</IDS>
+    </Character>
+    <Character>
+      <UID>11</UID>
+      <name>Shopkeeper</name>
+      <icon>66 Shopkeeper HD</icon>
+      <align>Right</align>
+      <IDS/>
+    </Character>
+    <Character>
+      <UID>12</UID>
+      <name>ZPCI Elite</name>
+      <icon>UnitZPCI2 HD</icon>
+      <align>Right</align>
+      <IDS/>
+    </Character>
+    <Character>
+      <UID>13</UID>
+      <name>Vendara</name>
+      <icon>Vendara HD</icon>
+      <align>Right</align>
+      <IDS/>
+    </Character>
+    <Character>
+      <UID>14</UID>
+      <name>???</name>
+      <icon>ZPCI Captain HD</icon>
+      <align>Right</align>
+      <IDS/>
+    </Character>
+    <Character>
+      <UID>15</UID>
+      <name>Vileclaw</name>
+      <icon>Vileclaw HD</icon>
+      <align>Right</align>
+      <IDS/>
+    </Character>
+    <Character>
+      <UID>16</UID>
+      <name>Herregods</name>
+      <icon>Herregods HD</icon>
+      <align>Left</align>
+      <IDS>E1</IDS>
+    </Character>
+    <Character>
+      <UID>17</UID>
+      <name>Corrupter</name>
+      <icon>Corrupter HD</icon>
+      <align>Right</align>
+      <IDS/>
+    </Character>
+    <Character>
+      <UID>18</UID>
+      <name>Worker</name>
+      <icon>Flame Worker</icon>
+      <align>Right</align>
+      <IDS></IDS>
+    </Character>
+    <Character>
+      <UID>19</UID>
+      <name>Grosk</name>
+      <icon>24 Magma HD </icon>
+      <align>Right</align>
+      <IDS/>
+    </Character>
+    <Character>
+      <UID>20</UID>
+      <name>Kara</name>
+      <icon>13 ZPCI Rogue HD</icon>
+      <align>Left</align>
+      <IDS>E2</IDS>
+    </Character>
+    <Character>
+      <UID>21</UID>
+      <name>ZPCI Striker</name>
+      <icon>UnitPolice</icon>
+      <align>Right</align>
+      <IDS/>
+    </Character>
+    <Character>
+      <UID>22</UID>
+      <name>Kara</name>
+      <icon>13 ZPCI Rogue HD</icon>
+      <align>Left</align>
+      <IDS>E2</IDS>
+    </Character>
+    <Character>
+      <UID>23</UID>
+      <name>Carbon</name>
+      <icon>67 Carbon Myster Form HD</icon>
+      <align>Right</align>
+      <IDS/>
+    </Character>
+    <Character>
+      <UID>24</UID>
+      <name>ZPCI Praetor</name>
+      <icon>ZPCI Captain HD</icon>
+      <align>Right</align>
+      <IDS/>
+    </Character>
+    <Character>
+      <UID>25</UID>
+      <name>Vendara</name>
+      <icon>Vendara HD</icon>
+      <align>Right</align>
+      <IDS/>
+    </Character>
+    <Character>
+      <UID>26</UID>
+      <name>Frost Hunter</name>
+      <icon>29 Frost hunter HD</icon>
+      <align>Right</align>
+      <IDS/>
+    </Character>
+    <Character>
+      <UID>27</UID>
+      <name>Zakk</name>
+      <icon>Scavenger HD</icon>
+      <align>Left</align>
+      <IDS>E3</IDS>
+    </Character>
+    <Character>
+      <UID>28</UID>
+      <name>Inquisitor Leon</name>
+      <icon>29 Frost Hunter Boss HD</icon>
+      <align>Right</align>
+      <IDS/>
+    </Character>
+    <Character>
+      <UID>29</UID>
+      <name>Priest</name>
+      <icon>31 Priest HD</icon>
+      <align>Right</align>
+      <IDS/>
+    </Character>
+    <Character>
+      <UID>30</UID>
+      <name>Arcanis</name>
+      <icon>Arcanis HD</icon>
+      <align>Right</align>
+      <IDS/>
+    </Character>
+    <Character>
+      <UID>31</UID>
+      <name>Celestia</name>
+      <icon>Lumina HD</icon>
+      <align>Right</align>
+      <IDS/>
+    </Character>
+    <Character>
+      <UID>32</UID>
+      <name>Baron</name>
+      <icon>48 Baron Dark Pants</icon>
+      <align>Right</align>
+      <IDS/>
+    </Character>
+    <Character>
+      <UID>33</UID>
+      <name>Augustin</name>
+      <icon>49 Count Augustin</icon>
+      <align>Right</align>
+      <IDS/>
+    </Character>
+    <Character>
+      <UID>34</UID>
+      <name>Plague Doctor</name>
+      <icon>47 Assassin</icon>
+      <align>Right</align>
+      <IDS/>
+    </Character>
+    <Character>
+      <UID>35</UID>
+      <name>Celestia</name>
+      <icon>Lumina HD</icon>
+      <align>Right</align>
+      <IDS/>
+    </Character>
+    <Character>
+      <UID>36</UID>
+      <name>ZPCI Praetor</name>
+      <icon>ZPCI Captain HD</icon>
+      <align>Right</align>
+      <IDS/>
+    </Character>
+    <Character>
+      <UID>37</UID>
+      <name>Farsight</name>
+      <icon>52 Ltn Farsight</icon>
+      <align>Right</align>
+      <IDS/>
+    </Character>
+    <Character>
+      <UID>38</UID>
+      <name>Dr Klima</name>
+      <icon>Kilma HD</icon>
+      <align>Right</align>
+      <IDS/>
+    </Character>
+    <Character>
+      <UID>39</UID>
+      <name>Apollo</name>
+      <icon>62 Apollo</icon>
+      <align>Right</align>
+      <IDS/>
+    </Character>
+    <Character>
+      <UID>40</UID>
+      <name>Artemis</name>
+      <icon>63 Artemis</icon>
+      <align>Right</align>
+      <IDS/>
+    </Character>
+    <Character>
+      <UID>41</UID>
+      <name>Acid Zombie</name>
+      <icon>Poison Zombie Purple</icon>
+      <align>Right</align>
+      <IDS>41</IDS>
+    </Character>
+    <Character>
+      <UID>42</UID>
+      <name>Louis</name>
+      <icon>Louis Injured HD</icon>
+      <align>Left</align>
+      <IDS/>
+    </Character>
+    <Character>
+      <UID>43</UID>
+      <name>Suit Zombie</name>
+      <icon>72 Lawyer</icon>
+      <align>Right</align>
+      <IDS/>
+    </Character>
+  </Characters>
+</xml>

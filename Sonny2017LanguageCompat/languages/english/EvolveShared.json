@@ -1,0 +1,7 @@
+﻿{
+  "VABILITY_EVOLVE": "Evolve",
+  "VABILITY_EXECUTE": "Execute",
+  "VABILITY_EVOLVEUPPER": "EVOLVE",
+  "VABILITY_EVOLVEREPLACEMENTDESCRIPTION": "An ability can only have one evolution at a time. If you evolve this ability, the previous evolution will be overriden. Proceed with evolution?",
+  "VABILITY_NOTENOUGHEVOLVEPOINTS": "You need 100 EP to do that!",
+}
