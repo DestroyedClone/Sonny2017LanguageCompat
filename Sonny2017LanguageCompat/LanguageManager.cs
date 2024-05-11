@@ -9,12 +9,14 @@ namespace Sonny2017LanguageCompat
 {
     public static class LanguageManager
     {
+        public static LanguageManager.OnLanguageChanged onLanguageChanged;
+
+        public delegate void OnLanguageChanged(string language);
+
         public static void Init()
         {
             currentLanguageSet = languages[Plugin.cfgCurrentLanguage.Value];
         }
-
-        public static void OnLanguageChanged() { }
 
         public static Dictionary<string, Dictionary<string, string>> languages = new Dictionary<string, Dictionary<string, string>>()
         {
@@ -29,6 +31,7 @@ namespace Sonny2017LanguageCompat
             {
                 currentLanguageSet = languageSet;
                 Plugin._logger.LogMessage($"Set language to {languageName}");
+                LanguageManager.onLanguageChanged(languageName);
                 return;
             }
             Plugin._logger.LogWarning($"Couldn't find language {languageName}, defaulting to english.");
@@ -38,6 +41,7 @@ namespace Sonny2017LanguageCompat
                 Debug.Log(language.Key);
             }
             currentLanguageSet = English.languageEntries;
+            LanguageManager.onLanguageChanged(languageName);
             //onLanguageChanged?.Invoke();
         }
 
