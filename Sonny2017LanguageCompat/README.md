@@ -4,6 +4,10 @@ Strangely, nearly all of the text is hardcoded, despite previous games having di
 
 This mod implements a language compatibility layer using SimpleJSON and monomod.
 
+# Progress
+* Comics (Done)
+* Credits (Done)
+
 # Compatible Languages:
 Ironically, I only speak English
 * English

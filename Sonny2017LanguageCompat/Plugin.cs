@@ -40,7 +40,7 @@ namespace Sonny2017LanguageCompat
             //TBuffs.Init();
             //TCombat.Init();
             TComic.Init();
-            //TCredits.Init();
+            TCredits.Init();
             //TEvolve.Init();
             //TMenu.Init();
             //TMisc.Init();
