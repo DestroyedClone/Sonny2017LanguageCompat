@@ -18,10 +18,10 @@ namespace Sonny2017LanguageCompat
 
         public static string VersionNumber = "1.6.7";
 
-        public static bool TryGetComponent<TComponent>(this GameObject gameObject, out TComponent component)
+        public static bool TryGetComponent<TComponent>(this GameObject gameObject, out TComponent component) where TComponent : Component
         {
             component = gameObject.GetComponent<TComponent>();
-            return component != null;
+            return !(component is null);
         }
 
         public static TokenTranslator AddTokenizer(this GameObject gameObject, string token, params object[] parameters)
