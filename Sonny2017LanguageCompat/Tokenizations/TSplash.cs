@@ -18,12 +18,7 @@ namespace Sonny2017LanguageCompat.Tokenizations
         private static void SplashScene_Start(On.SplashScene.orig_Start orig, SplashScene self)
         {
             orig(self);
-            if (!self.version.gameObject.GetComponent<TokenTranslator>())
-            {
-                TokenTranslator component = self.version.gameObject.AddComponent<TokenTranslator>();
-                component.token = Common.VersionToken;
-                component.parameters = new object[] { Common.Version };
-            }
+            self.version.gameObject.AddTokenizer(self.version, Common.VersionToken, Common.VersionCurrentLanguage);
             var buttonHolder = self.version.transform.parent.Find("Logo/Button Holder/");
             foreach (Transform button in buttonHolder.GetComponentInChildren<Transform>())
             {

@@ -50,6 +50,7 @@ namespace Sonny2017LanguageCompat
             //TZones.Init();
             //On.SplashScene.Start += SplashScene_Start;
             TTutorial.Init();
+            TSettings.Init();
             On.ItemPool.OnInitialize += ItemPool_OnInitialize;
         }
 

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using UnityEngine.UI;
 using UnityEngine;
 
 namespace Sonny2017LanguageCompat
@@ -8,7 +9,7 @@ namespace Sonny2017LanguageCompat
     internal static class Common
     {
         public const string VersionToken = "COMMON_VERSION";
-        public static string Version
+        public static string VersionCurrentLanguage
         {
             get
             {
@@ -16,7 +17,7 @@ namespace Sonny2017LanguageCompat
             }
         }
 
-        public static string VersionNumber = "1.6.7";
+        public const string VersionNumber = "1.6.7";
 
         public static bool TryGetComponent<TComponent>(this GameObject gameObject, out TComponent component) where TComponent : Component
         {
@@ -24,11 +25,13 @@ namespace Sonny2017LanguageCompat
             return !(component is null);
         }
 
-        public static TokenTranslator AddTokenizer(this GameObject gameObject, string token, params object[] parameters)
+        public static TokenTranslator AddTokenizer(this GameObject gameObject, Text textComponent, string token, params object[] parameters)
         {
+            Debug.Log($"== Adding tokenizer with token {token}");
             if (!gameObject.TryGetComponent(out TokenTranslator component))
             {
                 component = gameObject.AddComponent<TokenTranslator>();
+                component.textController = textComponent;
                 component.token = token;
                 component.parameters = parameters;
             }
