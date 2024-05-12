@@ -61,11 +61,16 @@ namespace Sonny2017LanguageCompat
 
 
             Debug.Log("Getting directories!");
-
-            foreach (var languageFolder in languageFolderDirectory.GetDirectories())
+            var languageFolderDirectories = languageFolderDirectory.GetDirectories();
+            Debug.Log($"Found {languageFolderDirectories.Length} language folder directories! Outputting:");
+            foreach (var fold in languageFolderDirectories )
+            {
+                Debug.Log(fold.Name);
+            }
+            foreach (var languageFolder in languageFolderDirectories)
             {
                 var languageName = languageFolder.Name;
-                Debug.Log(languageName);
+                Debug.Log($"Managing folder {languageName}");
                 Dictionary<string, string> tokens = new Dictionary<string, string>();
                 foreach (var languageFile in languageFolder.GetFiles())
                 {
@@ -86,8 +91,8 @@ namespace Sonny2017LanguageCompat
                 }
                 LanguageManager.languages.Add(languageName, tokens);
                 Debug.Log($"Languages: Added {languageName} with {tokens.Count} tokens!");
-                LanguageManager.SetLanguage(Plugin.cfgCurrentLanguage.Value);
             }
+            LanguageManager.SetLanguage(Plugin.cfgCurrentLanguage.Value);
         }
     }
 }

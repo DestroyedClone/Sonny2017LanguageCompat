@@ -49,6 +49,7 @@ namespace Sonny2017LanguageCompat
             //TUnit.Init();
             //TZones.Init();
             //On.SplashScene.Start += SplashScene_Start;
+            TTutorial.Init();
             On.ItemPool.OnInitialize += ItemPool_OnInitialize;
         }
 
@@ -58,12 +59,6 @@ namespace Sonny2017LanguageCompat
             Profile.Singleton.globalManager.replayCinematic = true;
             Profile.Singleton.globalManager.currentTrack = KJCanary.Singleton.currentRenderTrackId;
             KJSingleton<KJCore>.Singleton.FadeToScene("Comic");
-        }
-
-        private void A_ModifyPreviousCooldown_SetVars(On.A_ModifyPreviousCooldown.orig_SetVars orig, A_ModifyPreviousCooldown self, float selfVal, float target, float sameElement)
-        {
-            selfVal = 999;
-            orig(self, selfVal, target, sameElement);
         }
 
         private void ItemPool_OnInitialize(On.ItemPool.orig_OnInitialize orig, ItemPool self)
