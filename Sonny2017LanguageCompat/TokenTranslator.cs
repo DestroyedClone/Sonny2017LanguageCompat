@@ -9,6 +9,7 @@ namespace Sonny2017LanguageCompat
     {
         public UnityEngine.UI.Text textController;
         public string token = "TOKENNOTSET";
+        public object[] parameters = new object[] { };
         public void Start()
         {
             //LanguageManager.onLanguageChanged += OnLanguageChanged;
@@ -17,8 +18,8 @@ namespace Sonny2017LanguageCompat
 
         public void OnLanguageChanged()
         {
-            if (textController)
-                textController.text = LanguageManager.GetString(token);
+            if (!textController) return;
+            textController.text = LanguageManager.GetString(token, parameters);
         }
     }
 }
