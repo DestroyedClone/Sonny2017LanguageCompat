@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Text;
 using UnityEngine;
+using static Sonny2017LanguageCompat.Common;
 
 namespace Sonny2017LanguageCompat.Tokenizations
 {
@@ -17,16 +18,19 @@ namespace Sonny2017LanguageCompat.Tokenizations
         private static void SplashScene_Start(On.SplashScene.orig_Start orig, SplashScene self)
         {
             orig(self);
-            //self.version.text = "";
-            Debug.Log(self.version);
+            if (!self.version.gameObject.GetComponent<TokenTranslator>())
+            {
+                TokenTranslator component = self.version.gameObject.AddComponent<TokenTranslator>();
+                component.token = Common.VersionToken;
+                component.parameters = new object[] { Common.Version };
+            }
             var buttonHolder = self.version.transform.parent.Find("Logo/Button Holder/");
-            Debug.Log(buttonHolder);
             foreach (Transform button in buttonHolder.GetComponentInChildren<Transform>())
             {
                 var textComp = button.Find("Text").GetComponent<UnityEngine.UI.Text>();
                 var tran = textComp.gameObject.AddComponent<TokenTranslator>();
                 tran.textController = textComp;
-                Debug.Log($"Splash: TextComp: {textComp.text}");
+                //Debug.Log($"Splash: TextComp: {textComp.text}");
                 switch (textComp.text)
                 {
                     case "START GAME":

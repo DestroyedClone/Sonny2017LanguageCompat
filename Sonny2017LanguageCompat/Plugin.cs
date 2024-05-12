@@ -45,7 +45,7 @@ namespace Sonny2017LanguageCompat
             //TMenu.Init();
             //TMisc.Init();
             TScript.Init();
-            //TSplash.Init();
+            TSplash.Init();
             //TUnit.Init();
             //TZones.Init();
             //On.SplashScene.Start += SplashScene_Start;
