@@ -85,13 +85,13 @@ namespace Sonny2017LanguageCompat.Tokenizations
         {
             if (!comic)
             {
-                Debug.LogError($"Comic was null!");
+                //Debug.LogError($"Comic was null!");
                 return;
             }
-            Debug.Log($"Handling gameobject: {comic}");
+            //Debug.Log($"Handling gameobject: {comic}");
             foreach (var pair in pairs)
             {
-                Debug.Log($"Modify: \"{pair.Key}\" - \"{pair.Value}\"");
+                //Debug.Log($"Modify: \"{pair.Key}\" - \"{pair.Value}\"");
                 try
                 {
                     var textComp = comic.transform.Find($"ComicDialog{pair.Key}/Text").GetComponent<Text>();
@@ -108,7 +108,7 @@ namespace Sonny2017LanguageCompat.Tokenizations
 
         private static GameObject LoadComic(string comicName)
         {
-            Debug.Log($"Mod: Loading comic: {comicName}");
+            //Debug.Log($"Mod: Loading comic: {comicName}");
             return Resources.Load<GameObject>("Comic/"+comicName);
         }
     }
