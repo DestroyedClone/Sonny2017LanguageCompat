@@ -23,5 +23,16 @@ namespace Sonny2017LanguageCompat
             component = gameObject.GetComponent<TComponent>();
             return component != null;
         }
+
+        public static TokenTranslator AddTokenizer(this GameObject gameObject, string token, params object[] parameters)
+        {
+            if (!gameObject.TryGetComponent(out TokenTranslator component))
+            {
+                component = gameObject.AddComponent<TokenTranslator>();
+                component.token = token;
+                component.parameters = parameters;
+            }
+            return component;
+        }
     }
 }
