@@ -72,7 +72,7 @@ namespace Sonny2017LanguageCompat.Tokenizations
 
         private static void HandleComic(string comicName, params KeyValuePair<string, string>[] pairs)
         {
-            Debug.Log($"Loading comic {comicName}");
+            //Debug.Log($"Loading comic {comicName}");
             HandleComic(LoadComic(comicName), pairs);
         }
 
