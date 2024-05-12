@@ -1,0 +1,20 @@
+﻿{
+  "TUTORIAL_T1_TapEnemy": "Haz clic en el enemigo.",
+  "TUTORIAL_T1_TapAttack": "Haz clic en esta habilidad para usarla.",
+  "TUTORIAL_T2_TapSelf": "Haz clic para apuntar a ti mismo.",
+  "TUTORIAL_T2_TapHeal": "Haz clic en esta habilidad para usarla.",
+  "TUTORIAL_T3_TapCombat": "¡Haz clic para luchar!",
+  "TUTORIAL_T4_TapSkill": "Ir a la página de habilidades.",
+  "TUTORIAL_T4_TapBreak": "Haz clic para aprender.",
+  "TUTORIAL_T4_TapLearn": "",
+  "TUTORIAL_T5_TapShop": "Ir a la tienda.",
+  "TUTORIAL_T5_TapItem": "Haz clic para comprar el artículo.",
+  "TUTORIAL_T5_TapBuy": "",
+  "TUTORIAL_T5_TapBack": "",
+  "TUTORIAL_T6_TapInventory": "Ir al inventario.",
+  "TUTORIAL_T6_TapItem": "Haz clic para equipar el objeto.",
+  "TUTORIAL_T6_TapEquip": "",
+  "TUTORIAL_T7_TapSelf": "Haz clic para apuntar a ti mismo.",
+  "TUTORIAL_T7_TapSkill": "Haga clic y mantenga presionado.",
+  "TUTORIAL_T7_TapEvolve": "Haz clic para evolucionar la habilidad."
+}

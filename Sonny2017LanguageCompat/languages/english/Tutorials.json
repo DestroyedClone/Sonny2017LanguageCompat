@@ -1,0 +1,20 @@
+﻿{
+  "TUTORIAL_T1_TapEnemy": "Click on the enemy.",
+  "TUTORIAL_T1_TapAttack": "Click on this ability to use it.",
+  "TUTORIAL_T2_TapSelf": "Click to target self.",
+  "TUTORIAL_T2_TapHeal": "Click on this ability to use it.",
+  "TUTORIAL_T3_TapCombat": "Click to fight!",
+  "TUTORIAL_T4_TapSkill": "Go to ability page.",
+  "TUTORIAL_T4_TapBreak": "Click to learn.",
+  "TUTORIAL_T4_TapLearn": "",
+  "TUTORIAL_T5_TapShop": "Go to the shop.",
+  "TUTORIAL_T5_TapItem": "Click to buy item.",
+  "TUTORIAL_T5_TapBuy": "",
+  "TUTORIAL_T5_TapBack": "",
+  "TUTORIAL_T6_TapInventory": "Go to the inventory.",
+  "TUTORIAL_T6_TapItem": "Click to equip item.",
+  "TUTORIAL_T6_TapEquip": "",
+  "TUTORIAL_T7_TapSelf": "Click to target self.",
+  "TUTORIAL_T7_TapSkill": "Click and hold.",
+  "TUTORIAL_T7_TapEvolve": "Click to evolve skill."
+}
